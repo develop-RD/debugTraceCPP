@@ -1,0 +1,4 @@
+/build
+*.o
+/meta_types
+/Testing

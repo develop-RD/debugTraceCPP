@@ -1,0 +1,14 @@
+-I
+/home/dean/qt_project/my_parsing_trace/build/Desktop-u041eu0442u043bu0430u0434u043au0430
+-I
+/home/dean/qt_project/my_parsing_trace/build/Desktop-u041eu0442u043bu0430u0434u043au0430/my_parsing_trace
+-I
+/home/dean/qt_project/my_parsing_trace/build/Desktop-u041eu0442u043bu0430u0434u043au0430
+-I
+/usr/lib/qt6/qml
+--resource
+/home/dean/qt_project/my_parsing_trace/build/Desktop-u041eu0442u043bu0430u0434u043au0430/.qt/rcc/qmake_my_parsing_trace.qrc
+--resource
+/home/dean/qt_project/my_parsing_trace/build/Desktop-u041eu0442u043bu0430u0434u043au0430/.qt/rcc/appmy_parsing_trace_raw_qml_0.qrc
+--module
+my_parsing_trace

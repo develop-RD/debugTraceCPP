@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "/home/dean/qt_project/my_parsing_trace/Main.qml"
+                }
+            ],
+            "moduleId": "my_parsing_trace(appmy_parsing_trace)"
+        }
+    ]
+}

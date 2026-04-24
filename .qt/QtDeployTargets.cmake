@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appmy_parsing_trace_FILE /home/dean/qt_project/my_parsing_trace/appmy_parsing_trace)
+set(__QT_DEPLOY_TARGET_appmy_parsing_trace_TYPE EXECUTABLE)

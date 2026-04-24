@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appmy_parsing_trace_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_my_parsing_trace.cpp"
+  ".rcc/qmlcache/appmy_parsing_trace_Main_qml.cpp"
+  ".rcc/qmlcache/appmy_parsing_trace_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appmy_parsing_trace_qmlcache_loader.cpp"
+  "CMakeFiles/appmy_parsing_trace.dir/link.d"
+  "CMakeFiles/appmy_parsing_trace_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appmy_parsing_trace_autogen.dir/ParseCache.txt"
+  "appmy_parsing_trace_autogen"
+  "CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_appmy_parsing_trace_raw_qml_0.cpp.o"
+  "CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_appmy_parsing_trace_raw_qml_0.cpp.o.d"
+  "CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_qmake_my_parsing_trace.cpp.o"
+  "CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_qmake_my_parsing_trace.cpp.o.d"
+  "CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_Main_qml.cpp.o"
+  "CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_Main_qml.cpp.o.d"
+  "CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_qmlcache_loader.cpp.o"
+  "CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_qmltyperegistrations.cpp.o"
+  "CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_qmltyperegistrations.cpp.o.d"
+  "CMakeFiles/appmy_parsing_trace.dir/main.cpp.o"
+  "CMakeFiles/appmy_parsing_trace.dir/main.cpp.o.d"
+  "appmy_parsing_trace"
+  "appmy_parsing_trace.pdb"
+  "appmy_parsing_trace_autogen/mocs_compilation.cpp"
+  "appmy_parsing_trace_autogen/timestamp"
+  "appmy_parsing_trace_qmltyperegistrations.cpp"
+  "meta_types/appmy_parsing_trace_json_file_list.txt"
+  "meta_types/appmy_parsing_trace_json_file_list.txt.timestamp"
+  "meta_types/qt6appmy_parsing_trace_metatypes.json"
+  "meta_types/qt6appmy_parsing_trace_metatypes.json.gen"
+  "my_parsing_trace/appmy_parsing_trace.qmltypes"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appmy_parsing_trace.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,6 @@
+module my_parsing_trace
+typeinfo appmy_parsing_trace.qmltypes
+prefer :/qt/qml/my_parsing_trace/
+Main 254.0 Main.qml
+depends QtQuick
+

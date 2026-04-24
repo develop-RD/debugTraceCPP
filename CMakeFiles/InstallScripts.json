@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/dean/qt_project/my_parsing_trace/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

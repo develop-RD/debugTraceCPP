@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/my_parsing_trace">
+    <file alias="qmldir">/home/dean/qt_project/my_parsing_trace/my_parsing_trace/qmldir</file>
+  </qresource>
+</RCC>
+

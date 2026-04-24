@@ -1,0 +1,1 @@
+/home/dean/qt_project/my_parsing_trace/appmy_parsing_trace_autogen/include/main.moc.json

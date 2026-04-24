@@ -1,0 +1,14 @@
+-rootPath
+/home/dean/qt_project/my_parsing_trace
+-cmake-output
+-output-file
+/home/dean/qt_project/my_parsing_trace/Desktop-u041eu0442u043bu0430u0434u043au0430/.qt/qml_imports/appmy_parsing_trace_build.cmake
+-importPath
+/home/dean/qt_project/my_parsing_trace/Desktop-u041eu0442u043bu0430u0434u043au0430
+-importPath
+/home/dean/qt_project/my_parsing_trace/Desktop-u041eu0442u043bu0430u0434u043au0430/my_parsing_trace
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/dean/qt_project/my_parsing_trace/Desktop-u041eu0442u043bu0430u0434u043au0430/.qt/rcc/qmake_my_parsing_trace.qrc
+/home/dean/qt_project/my_parsing_trace/Desktop-u041eu0442u043bu0430u0434u043au0430/.qt/rcc/appmy_parsing_trace_raw_qml_0.qrc
