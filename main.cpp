@@ -58,6 +58,49 @@ bool parcTrace(const QString path)
                  << "NameFunc:" << traces[i].NameFunc
                  << "flagOpen:" << traces[i].flagOpen;
     }
+
+    QStringList m_graphLines;
+    m_graphLines.clear();
+    // рисуем в консоль
+    int depth = 0;
+
+    for (int i = 0; i < count; i++)
+    {
+        if (traces[i].flagOpen == 0)  // открытие функции
+        {
+            QString line;
+
+            // Строим отступы
+            for (int j = 0; j < depth; j++)
+            {
+                line += QString(" ").repeated(depth+3)+"│ \n";
+            }
+
+            // Добавляем ветку
+            if (depth > 0) {
+                line += QString(" ").repeated(depth+3)+"├─";
+            } else {
+                line += "───";
+            }
+
+            // Информация о функции
+            line += "■ ";
+            line += traces[i].NameFunc;
+            line += " [";
+            line += QString::number(traces[i].timeStart);
+            line += " мс]";
+
+            m_graphLines.append(line);
+
+            depth++;
+        }
+        else  // закрытие функции
+        {
+            depth--;
+        }
+    }
+    qDebug().noquote() << m_graphLines.join("\n");
+
     return true;
 }
 

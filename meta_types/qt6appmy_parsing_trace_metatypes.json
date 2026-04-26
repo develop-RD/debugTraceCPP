@@ -3,7 +3,7 @@
         "classes": [
             {
                 "className": "TraceController",
-                "lineNumber": 65,
+                "lineNumber": 108,
                 "methods": [
                     {
                         "access": "public",
@@ -14,7 +14,7 @@
                             }
                         ],
                         "index": 0,
-                        "lineNumber": 70,
+                        "lineNumber": 113,
                         "name": "loadFile",
                         "returnType": "bool"
                     }
