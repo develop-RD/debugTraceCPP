@@ -1,1 +1,2 @@
+/home/dean/qt_project/my_parsing_trace/appmy_parsing_trace_autogen/include/../EWIEGA46WW/moc_tracecontroller.cpp.json
 /home/dean/qt_project/my_parsing_trace/appmy_parsing_trace_autogen/include/main.moc.json

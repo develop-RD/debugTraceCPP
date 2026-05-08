@@ -7,6 +7,8 @@
 /home/dean/qt_project/my_parsing_trace/CMakeFiles/all_qmllint.dir
 /home/dean/qt_project/my_parsing_trace/CMakeFiles/all_qmllint_json.dir
 /home/dean/qt_project/my_parsing_trace/CMakeFiles/all_qmllint_module.dir
+/home/dean/qt_project/my_parsing_trace/CMakeFiles/dump_qml_context_properties.dir
+/home/dean/qt_project/my_parsing_trace/CMakeFiles/clean_qml_context_properties.dir
 /home/dean/qt_project/my_parsing_trace/CMakeFiles/appmy_parsing_trace_copy_qml.dir
 /home/dean/qt_project/my_parsing_trace/CMakeFiles/appmy_parsing_trace_copy_res.dir
 /home/dean/qt_project/my_parsing_trace/CMakeFiles/generate_qmlls_build_ini_file.dir

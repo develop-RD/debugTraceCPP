@@ -16,6 +16,7 @@ qt_add_qml_module(appmy_parsing_trace
     URI my_parsing_trace
     QML_FILES
         Main.qml
+        SOURCES tracecontroller.h tracecontroller.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

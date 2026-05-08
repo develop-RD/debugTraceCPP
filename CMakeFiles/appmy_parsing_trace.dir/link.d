@@ -6,17 +6,18 @@ appmy_parsing_trace: \
   CMakeFiles/appmy_parsing_trace.dir/main.cpp.o \
   CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_qmltyperegistrations.cpp.o \
   CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_qmake_my_parsing_trace.cpp.o \
+  CMakeFiles/appmy_parsing_trace.dir/tracecontroller.cpp.o \
   CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_qmlcache_loader.cpp.o \
   CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_Main_qml.cpp.o \
   CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_appmy_parsing_trace_raw_qml_0.cpp.o \
-  /usr/lib/libQt6Quick.so.6.10.2 \
-  /usr/lib/libQt6OpenGL.so.6.10.2 \
-  /usr/lib/libQt6Gui.so.6.10.2 \
+  /usr/lib/libQt6Quick.so.6.11.0 \
+  /usr/lib/libQt6OpenGL.so.6.11.0 \
+  /usr/lib/libQt6Gui.so.6.11.0 \
   /usr/lib/libGLX.so \
   /usr/lib/libOpenGL.so \
-  /usr/lib/libQt6Qml.so.6.10.2 \
-  /usr/lib/libQt6Network.so.6.10.2 \
-  /usr/lib/libQt6Core.so.6.10.2 \
+  /usr/lib/libQt6Qml.so.6.11.0 \
+  /usr/lib/libQt6Network.so.6.11.0 \
+  /usr/lib/libQt6Core.so.6.11.0 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
@@ -66,6 +67,7 @@ appmy_parsing_trace: \
   /usr/lib/libproxy.so.1 \
   /usr/lib/libproxy.so.1 \
   /usr/lib/libcrypto.so.3 \
+  /usr/lib/liburing.so.2 \
   /usr/lib/libicui18n.so.78 \
   /usr/lib/libicuuc.so.78 \
   /usr/lib/libsystemd.so.0 \
@@ -100,6 +102,8 @@ appmy_parsing_trace: \
   /usr/lib/libproxy/libpxbackend-1.0.so \
   /usr/lib32/libgobject-2.0.so.0 \
   /usr/lib/libgobject-2.0.so.0 \
+  /usr/lib32/libbrotlienc.so.1 \
+  /usr/lib/libbrotlienc.so.1 \
   /usr/lib32/libicudata.so.78 \
   /usr/lib/libicudata.so.78 \
   /usr/lib32/libgomp.so.1 \
@@ -154,27 +158,29 @@ CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_qmltyperegistrations.cpp.
 
 CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_qmake_my_parsing_trace.cpp.o:
 
+CMakeFiles/appmy_parsing_trace.dir/tracecontroller.cpp.o:
+
 CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_qmlcache_loader.cpp.o:
 
 CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_Main_qml.cpp.o:
 
 CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_appmy_parsing_trace_raw_qml_0.cpp.o:
 
-/usr/lib/libQt6Quick.so.6.10.2:
+/usr/lib/libQt6Quick.so.6.11.0:
 
-/usr/lib/libQt6OpenGL.so.6.10.2:
+/usr/lib/libQt6OpenGL.so.6.11.0:
 
-/usr/lib/libQt6Gui.so.6.10.2:
+/usr/lib/libQt6Gui.so.6.11.0:
 
 /usr/lib/libGLX.so:
 
 /usr/lib/libOpenGL.so:
 
-/usr/lib/libQt6Qml.so.6.10.2:
+/usr/lib/libQt6Qml.so.6.11.0:
 
-/usr/lib/libQt6Network.so.6.10.2:
+/usr/lib/libQt6Network.so.6.11.0:
 
-/usr/lib/libQt6Core.so.6.10.2:
+/usr/lib/libQt6Core.so.6.11.0:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so:
 
@@ -274,6 +280,8 @@ CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_appmy_parsing_trace_raw_qml_0.cpp
 
 /usr/lib/libcrypto.so.3:
 
+/usr/lib/liburing.so.2:
+
 /usr/lib/libicui18n.so.78:
 
 /usr/lib/libicuuc.so.78:
@@ -341,6 +349,10 @@ CMakeFiles/appmy_parsing_trace.dir/.qt/rcc/qrc_appmy_parsing_trace_raw_qml_0.cpp
 /usr/lib32/libgobject-2.0.so.0:
 
 /usr/lib/libgobject-2.0.so.0:
+
+/usr/lib32/libbrotlienc.so.1:
+
+/usr/lib/libbrotlienc.so.1:
 
 /usr/lib32/libicudata.so.78:
 

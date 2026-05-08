@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_qmltyperegistrations.cpp.o.d"
   "CMakeFiles/appmy_parsing_trace.dir/main.cpp.o"
   "CMakeFiles/appmy_parsing_trace.dir/main.cpp.o.d"
+  "CMakeFiles/appmy_parsing_trace.dir/tracecontroller.cpp.o"
+  "CMakeFiles/appmy_parsing_trace.dir/tracecontroller.cpp.o.d"
   "appmy_parsing_trace"
   "appmy_parsing_trace.pdb"
   "appmy_parsing_trace_autogen/mocs_compilation.cpp"

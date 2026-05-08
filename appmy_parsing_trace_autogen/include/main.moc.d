@@ -1,5 +1,6 @@
 /home/dean/qt_project/my_parsing_trace/appmy_parsing_trace_autogen/include/main.moc: /home/dean/qt_project/my_parsing_trace/main.cpp \
   /home/dean/qt_project/my_parsing_trace/appmy_parsing_trace_autogen/moc_predefs.h \
+  /home/dean/qt_project/my_parsing_trace/tracecontroller.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -269,7 +270,15 @@
   /usr/include/qt6/QtCore/QDebug \
   /usr/include/qt6/QtCore/QDir \
   /usr/include/qt6/QtCore/QFile \
+  /usr/include/qt6/QtCore/QList \
+  /usr/include/qt6/QtCore/QMap \
+  /usr/include/qt6/QtCore/QObject \
+  /usr/include/qt6/QtCore/QString \
+  /usr/include/qt6/QtCore/QVariant \
+  /usr/include/qt6/QtCore/QVariantList \
+  /usr/include/qt6/QtCore/QVariantMap \
   /usr/include/qt6/QtCore/q17memory.h \
+  /usr/include/qt6/QtCore/q20bit.h \
   /usr/include/qt6/QtCore/q20functional.h \
   /usr/include/qt6/QtCore/q20iterator.h \
   /usr/include/qt6/QtCore/q20memory.h \
@@ -335,6 +344,7 @@
   /usr/include/qt6/QtCore/qiodevice.h \
   /usr/include/qt6/QtCore/qiodevicebase.h \
   /usr/include/qt6/QtCore/qiterable.h \
+  /usr/include/qt6/QtCore/qiterable_impl.h \
   /usr/include/qt6/QtCore/qiterator.h \
   /usr/include/qt6/QtCore/qlatin1stringview.h \
   /usr/include/qt6/QtCore/qlist.h \
@@ -346,6 +356,7 @@
   /usr/include/qt6/QtCore/qmath.h \
   /usr/include/qt6/QtCore/qmetacontainer.h \
   /usr/include/qt6/QtCore/qmetaobject.h \
+  /usr/include/qt6/QtCore/qmetasequence.h \
   /usr/include/qt6/QtCore/qmetatype.h \
   /usr/include/qt6/QtCore/qminmax.h \
   /usr/include/qt6/QtCore/qnamespace.h \
@@ -411,6 +422,8 @@
   /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
+  /usr/include/qt6/QtCore/qvariantlist.h \
+  /usr/include/qt6/QtCore/qvariantmap.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
   /usr/include/qt6/QtCore/qversionnumber.h \
   /usr/include/qt6/QtCore/qversiontagging.h \

@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dean/qt_project/my_parsing_trace/appmy_parsing_trace_autogen/mocs_compilation.cpp" "CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_autogen/mocs_compilation.cpp.o.d"
   "/home/dean/qt_project/my_parsing_trace/appmy_parsing_trace_qmltyperegistrations.cpp" "CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_qmltyperegistrations.cpp.o" "gcc" "CMakeFiles/appmy_parsing_trace.dir/appmy_parsing_trace_qmltyperegistrations.cpp.o.d"
   "/home/dean/qt_project/my_parsing_trace/main.cpp" "CMakeFiles/appmy_parsing_trace.dir/main.cpp.o" "gcc" "CMakeFiles/appmy_parsing_trace.dir/main.cpp.o.d"
+  "/home/dean/qt_project/my_parsing_trace/tracecontroller.cpp" "CMakeFiles/appmy_parsing_trace.dir/tracecontroller.cpp.o" "gcc" "CMakeFiles/appmy_parsing_trace.dir/tracecontroller.cpp.o.d"
   "" "appmy_parsing_trace" "gcc" "CMakeFiles/appmy_parsing_trace.dir/link.d"
   )
 
