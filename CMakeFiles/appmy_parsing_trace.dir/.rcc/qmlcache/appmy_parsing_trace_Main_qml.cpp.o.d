@@ -336,6 +336,7 @@ CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_Main_qml.cp
  /usr/include/qt6/QtCore/qspan.h /usr/include/c++/15.2.1/cassert \
  /usr/include/qt6/QtCore/q20iterator.h \
  /usr/include/qt6/QtCore/qtyperevision.h \
+ /usr/include/qt6/QtCore/qloggingcategory.h \
  /usr/include/qt6/QtCore/qtimezone.h /usr/include/qt6/QtQml/qjsengine.h \
  /usr/include/qt6/QtQml/qjsmanagedvalue.h \
  /usr/include/qt6/QtQml/qqmldebug.h \

@@ -1996,6 +1996,7 @@ CMakeFiles/appmy_parsing_trace.dir/.rcc/qmlcache/appmy_parsing_trace_Main_qml.cp
   /usr/include/qt6/QtCore/qlist.h \
   /usr/include/qt6/QtCore/qlocale.h \
   /usr/include/qt6/QtCore/qlogging.h \
+  /usr/include/qt6/QtCore/qloggingcategory.h \
   /usr/include/qt6/QtCore/qmalloc.h \
   /usr/include/qt6/QtCore/qmap.h \
   /usr/include/qt6/QtCore/qmath.h \
@@ -4797,6 +4798,8 @@ appmy_parsing_trace_autogen/mocs_compilation.cpp:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h:
+
+/usr/include/qt6/QtCore/qloggingcategory.h:
 
 /usr/include/math.h:
 

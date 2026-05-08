@@ -14,6 +14,8 @@ ApplicationWindow {
     title: "Trace Visualizer"
     color: "#1a1a2e"
 
+
+
     property var nodes: []
     property var connections: []
     property int graphWidth: 800
@@ -166,6 +168,64 @@ ApplicationWindow {
                 }
             }
         }
+        // Отладочная информация
+        Text {
+            text: "Количество записей: " + traceParser.traceData.length
+            color: "#ffffff"
+            font.family: "Courier New"
+            anchors.horizontalCenter: parent.horizontalCenter
+        }
+
+
+            // Список функций
+                    ListView {
+                        id: listView
+                        width: parent.width
+                        height: parent.height
+                        model: traceParser.traceData
+                        clip: true
+
+                        onCountChanged: {
+                            console.log("QML: ListView обновлен, количество элементов:", count)
+                        }
+
+
+                        delegate: Rectangle {
+                            width: ListView.view.width-10
+                            height: 30
+                            color: index % 2 === 0 ? "#1a1a2e" : "#16213e"
+
+                            Component.onCompleted: {
+                                console.log("QML: Создан элемент", index,
+                                           "имя:", modelData.name,
+                                           "длительность:", modelData.duration,
+                                            "глубина", modelData.depth)
+                            }
+
+                            // Имя функции
+                            Text {
+                                x: modelData.indent + 20
+                                anchors.verticalCenter: parent.verticalCenter
+                                text: {
+                                    var prefix = ""
+                                    for (var i = 0; i < modelData.depth; i++) {
+                                        prefix += "  "
+                                    }
+                                    if (modelData.depth > 0) {
+                                        return prefix + "+- " + modelData.name + " [" + modelData.duration+ "]";
+                                    } else {
+                                        return "--- " + modelData.name + " [" + modelData.duration+ "]";
+                                    }
+                                }
+                                color: modelData.color
+                                font.family: "Courier New"
+                                font.pixelSize: 14
+                            }
+
+                        }
+                    }
+
+
 
     }
 }

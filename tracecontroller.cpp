@@ -64,6 +64,15 @@ bool TraceController::loadFile(const QString &path)
     // рисуем в консоль
     int depth = 0;
 
+    struct StackItem {
+        QString name;        // Имя функции
+        uint32_t startTime;  // Время начала
+        int depth;           // Глубина вложенности
+    };
+
+    QVector<StackItem> stack;  // Стек открытых функций
+    m_traceData.clear();       // Очищаем старые данные
+
     for (int i = 0; i < count; i++)
     {
         if (traces[i].flagOpen == 0)  // открытие функции
@@ -90,7 +99,24 @@ bool TraceController::loadFile(const QString &path)
             line += QString::number(traces[i].timeStart);
             line += " мс]";
 
+            // пока сохраняю все имена функций
+            StackItem item;
+            item.name = traces[i].NameFunc;
+            item.depth = stack.size();
+            item.startTime = traces[i].timeStart;
+            stack.append(item);
+
             m_graphLines.append(line);
+
+            // Создаем запись для QML
+            QVariantMap record;  // Словарь (ключ -> значение)
+            record["name"] = item.name;           // Имя функции
+            record["depth"] = item.depth;         // Уровень вложенности
+            record["duration"] = item.startTime;               // Пока неизвестно
+            record["indent"] = item.depth * 20;   // Отступ в пикселях
+            record["color"] = (item.depth == 0) ? "#e94560" : "#ffffff";
+
+            m_traceData.append(record);  // Добавляем в общий список
 
             depth++;
         }

@@ -10,7 +10,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "nodes",
-                            "line": 17,
+                            "line": 19,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
@@ -18,7 +18,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "connections",
-                            "line": 18,
+                            "line": 20,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
@@ -26,7 +26,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 24,
+                            "line": 26,
                             "message": ""
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 29,
+                            "line": 31,
                             "message": ""
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 36,
+                            "line": 38,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 46,
+                            "line": 48,
                             "message": ""
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 55,
+                            "line": 57,
                             "message": ""
                         },
                         {
@@ -66,7 +66,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 53,
+                            "line": 55,
                             "message": ""
                         },
                         {
@@ -74,7 +74,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 59,
+                            "line": 61,
                             "message": ""
                         },
                         {
@@ -82,7 +82,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 75,
+                            "line": 77,
                             "message": "Cannot retrieve a non-object type by ID: window"
                         },
                         {
@@ -90,7 +90,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "onTextChanged",
-                            "line": 77,
+                            "line": 79,
                             "message": "Cannot retrieve a non-object type by ID: window"
                         },
                         {
@@ -98,7 +98,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 70,
+                            "line": 72,
                             "message": ""
                         },
                         {
@@ -106,7 +106,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "currentFolder",
-                            "line": 84,
+                            "line": 86,
                             "message": "Cannot access value for name StandardPaths"
                         },
                         {
@@ -114,7 +114,7 @@
                             "column": 37,
                             "durationMicroseconds": 0,
                             "functionName": "onAccepted",
-                            "line": 85,
+                            "line": 87,
                             "message": "Cannot retrieve a non-object type by ID: window"
                         },
                         {
@@ -122,7 +122,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "urlToPath",
-                            "line": 112,
+                            "line": 114,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -130,7 +130,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 142,
+                            "line": 144,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
@@ -138,7 +138,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 129,
+                            "line": 131,
                             "message": "Cannot access value for name loadButton"
                         },
                         {
@@ -146,7 +146,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 135,
+                            "line": 137,
                             "message": "Cannot access value for name loadButton"
                         },
                         {
@@ -154,7 +154,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "font",
-                            "line": 136,
+                            "line": 138,
                             "message": "Cannot access value for name loadButton"
                         },
                         {
@@ -162,7 +162,7 @@
                             "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 138,
+                            "line": 140,
                             "message": ""
                         },
                         {
@@ -170,7 +170,7 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 139,
+                            "line": 141,
                             "message": ""
                         },
                         {
@@ -178,7 +178,111 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 165,
+                            "line": 167,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 173,
+                            "message": "Cannot access value for name traceParser"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalCenter",
+                            "line": 176,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 183,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 33,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 184,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 185,
+                            "message": "Cannot access value for name traceParser"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCountChanged",
+                            "line": 188,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 194,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 196,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCompleted",
+                            "line": 198,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 207,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 3000,
+                            "functionName": "text",
+                            "line": 209,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 220,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 57,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalCenter",
+                            "line": 208,
                             "message": ""
                         }
                     ],
