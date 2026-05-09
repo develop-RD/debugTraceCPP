@@ -178,7 +178,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 167,
+                            "line": 156,
                             "message": ""
                         },
                         {
@@ -186,7 +186,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 173,
+                            "line": 162,
                             "message": "Cannot access value for name traceParser"
                         },
                         {
@@ -194,7 +194,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 176,
+                            "line": 165,
                             "message": ""
                         },
                         {
@@ -202,7 +202,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 183,
+                            "line": 172,
                             "message": ""
                         },
                         {
@@ -210,7 +210,7 @@
                             "column": 33,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 184,
+                            "line": 173,
                             "message": ""
                         },
                         {
@@ -218,7 +218,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 185,
+                            "line": 174,
                             "message": "Cannot access value for name traceParser"
                         },
                         {
@@ -226,7 +226,7 @@
                             "column": 41,
                             "durationMicroseconds": 0,
                             "functionName": "onCountChanged",
-                            "line": 188,
+                            "line": 177,
                             "message": ""
                         },
                         {
@@ -234,7 +234,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 194,
+                            "line": 183,
                             "message": ""
                         },
                         {
@@ -242,15 +242,15 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 196,
+                            "line": 185,
                             "message": "Cannot access value for name index"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 52,
+                            "column": 29,
                             "durationMicroseconds": 0,
                             "functionName": "onCompleted",
-                            "line": 198,
+                            "line": 189,
                             "message": "Cannot access value for name index"
                         },
                         {
@@ -258,15 +258,15 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 207,
+                            "line": 198,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
                             "column": 39,
-                            "durationMicroseconds": 3000,
+                            "durationMicroseconds": 4000,
                             "functionName": "text",
-                            "line": 209,
+                            "line": 200,
                             "message": "Cannot access value for name modelData"
                         },
                         {
@@ -274,7 +274,7 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 220,
+                            "line": 217,
                             "message": "Cannot access value for name modelData"
                         },
                         {
@@ -282,7 +282,7 @@
                             "column": 57,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 208,
+                            "line": 199,
                             "message": ""
                         }
                     ],

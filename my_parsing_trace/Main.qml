@@ -143,17 +143,6 @@ ApplicationWindow {
 
                         onClicked: {
                             fileDialog.open()
-                            // var path = filePathInput.text.trim()
-                            // if (path === "") return
-
-                            //     if (traceParser.loadFile(path)) {
-                            //         statusText.text = "[ LOADED ]"
-                            //         statusText.color = "#00ff00"
-                            //         drawGraph()
-                            //     } else {
-                            //         statusText.text = "[ ERROR ]"
-                            //         statusText.color = "#ff0000"
-                            //     }
                         }
                     }
                 }
@@ -195,7 +184,9 @@ ApplicationWindow {
                             height: 30
                             color: index % 2 === 0 ? "#1a1a2e" : "#16213e"
 
-                            Component.onCompleted: {
+                            // чисто для вывода в консоль информации. Срабатывает когда данные готовы
+                            Component.onCompleted:
+                            {
                                 console.log("QML: Создан элемент", index,
                                            "имя:", modelData.name,
                                            "длительность:", modelData.duration,
@@ -208,13 +199,19 @@ ApplicationWindow {
                                 anchors.verticalCenter: parent.verticalCenter
                                 text: {
                                     var prefix = ""
-                                    for (var i = 0; i < modelData.depth; i++) {
-                                        prefix += "  "
+                                    var localDepth = modelData.depth;
+                                    if (modelData.flagOpen == 1)
+                                    {
+                                        localDepth=localDepth-2;
                                     }
-                                    if (modelData.depth > 0) {
-                                        return prefix + "+- " + modelData.name + " [" + modelData.duration+ "]";
+                                    for (var i = 0; i < localDepth; i++)
+                                    {
+                                            prefix += "  "
+                                    }
+                                    if (localDepth> 0) {
+                                        return prefix + "+- " + modelData.name + " [" + modelData.duration+ "] мс";
                                     } else {
-                                        return "--- " + modelData.name + " [" + modelData.duration+ "]";
+                                        return "-- " + modelData.name + " [" + modelData.duration+ "] мс";
                                     }
                                 }
                                 color: modelData.color

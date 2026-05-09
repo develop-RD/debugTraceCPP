@@ -68,13 +68,38 @@ bool TraceController::loadFile(const QString &path)
         QString name;        // Имя функции
         uint32_t startTime;  // Время начала
         int depth;           // Глубина вложенности
+        uint8_t flagOpen;
     };
 
     QVector<StackItem> stack;  // Стек открытых функций
     m_traceData.clear();       // Очищаем старые данные
+    StackItem item;
+
 
     for (int i = 0; i < count; i++)
     {
+
+        // пока сохраняю все имена функций
+
+        item.name = traces[i].NameFunc;
+        item.depth = depth;
+        item.startTime = traces[i].timeStart;
+        item.flagOpen = traces[i].flagOpen;
+        stack.append(item);
+
+
+
+        // Создаем запись для QML
+        QVariantMap record;  // Словарь (ключ -> значение)
+        record["name"] = item.name;           // Имя функции
+        record["depth"] = item.depth;         // Уровень вложенности
+        record["duration"] = item.startTime;               // Пока неизвестно
+        record["indent"] = item.depth * 20;   // Отступ в пикселях
+        record["color"] = (item.depth == 0) ? "#e94560" : "#ffffff";
+        record["flagOpen"] = item.flagOpen;
+
+        m_traceData.append(record);  // Добавляем в общий список
+
         if (traces[i].flagOpen == 0)  // открытие функции
         {
             QString line;
@@ -99,31 +124,18 @@ bool TraceController::loadFile(const QString &path)
             line += QString::number(traces[i].timeStart);
             line += " мс]";
 
-            // пока сохраняю все имена функций
-            StackItem item;
-            item.name = traces[i].NameFunc;
-            item.depth = stack.size();
-            item.startTime = traces[i].timeStart;
-            stack.append(item);
-
             m_graphLines.append(line);
-
-            // Создаем запись для QML
-            QVariantMap record;  // Словарь (ключ -> значение)
-            record["name"] = item.name;           // Имя функции
-            record["depth"] = item.depth;         // Уровень вложенности
-            record["duration"] = item.startTime;               // Пока неизвестно
-            record["indent"] = item.depth * 20;   // Отступ в пикселях
-            record["color"] = (item.depth == 0) ? "#e94560" : "#ffffff";
-
-            m_traceData.append(record);  // Добавляем в общий список
 
             depth++;
         }
-        else  // закрытие функции
+        else
         {
             depth--;
         }
+
+
+
+
     }
     qDebug().noquote() << m_graphLines.join("\n");
 
